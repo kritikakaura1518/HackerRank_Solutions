@@ -13,7 +13,7 @@ public class Solution {
         return false;
     }
             
-    game[i] = 1; // marks as visited
+    game[i] = 1; 
 
     // Recursive Cases
     return isSolvable(leap, game, i + leap) || 
